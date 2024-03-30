@@ -5,6 +5,7 @@
   "author": "jgjgill",
   "license": "MIT",
   "workspaces": [
+    "cli",
     "lib",
     "test"
   ],

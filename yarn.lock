@@ -341,6 +341,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "commander@npm:12.0.0"
+  checksum: 10c0/e51cac1d1d0aa1f76581981d2256a9249497e08f5a370bf63b0dfc7e76a647fc8cbc3ddd507928f2bdca6c514c83834e87e2687ace2fe2fc7cc7e631bf80f83d
+  languageName: node
+  linkType: hard
+
 "create-require@npm:^1.1.0":
   version: 1.1.1
   resolution: "create-require@npm:1.1.1"
@@ -435,6 +442,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jgjgill-utils-cli@npm:0.0.2, jgjgill-utils-cli@workspace:cli":
+  version: 0.0.0-use.local
+  resolution: "jgjgill-utils-cli@workspace:cli"
+  dependencies:
+    commander: "npm:^12.0.0"
+    jgjgill-utils: "npm:0.0.0-ts"
+  bin:
+    calculate: ./cli.cjs
+  languageName: unknown
+  linkType: soft
+
 "jgjgill-utils@npm:0.0.0-ts, jgjgill-utils@workspace:lib":
   version: 0.0.0-use.local
   resolution: "jgjgill-utils@workspace:lib"
@@ -465,6 +483,7 @@ __metadata:
   resolution: "test@workspace:test"
   dependencies:
     jgjgill-utils: "npm:0.0.0-ts"
+    jgjgill-utils-cli: "npm:0.0.2"
   languageName: unknown
   linkType: soft
 
