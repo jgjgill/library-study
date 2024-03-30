@@ -1,0 +1,11 @@
+{
+  "name": "library-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jgjgill/library-study.git",
+  "author": "jgjgill",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3"
+  }
+}
