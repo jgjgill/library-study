@@ -9,6 +9,8 @@
     "test"
   ],
   "devDependencies": {
-    "@biomejs/biome": "1.6.3"
+    "@biomejs/biome": "1.6.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   }
 }
