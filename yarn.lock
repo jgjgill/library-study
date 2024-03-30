@@ -96,14 +96,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"calculate-utils-test@npm:0.0.0-onlyCJS":
-  version: 0.0.0-onlyCJS
-  resolution: "calculate-utils-test@npm:0.0.0-onlyCJS"
-  checksum: 10c0/1b82d5231347f15a4edaa84ea15e638a9017baa25bee03a4e297389b40fac81295c97863cd9523150e6715a9863fe2cf2d7fa4a8315c492c51e053b698a64ccd
-  languageName: node
-  linkType: hard
-
-"jgjgill-utils@workspace:^, jgjgill-utils@workspace:lib":
+"jgjgill-utils@npm:0.0.0-onlyESM, jgjgill-utils@workspace:lib":
   version: 0.0.0-use.local
   resolution: "jgjgill-utils@workspace:lib"
   languageName: unknown
@@ -121,7 +114,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "test@workspace:test"
   dependencies:
-    calculate-utils-test: "npm:0.0.0-onlyCJS"
-    jgjgill-utils: "workspace:^"
+    jgjgill-utils: "npm:0.0.0-onlyESM"
   languageName: unknown
   linkType: soft

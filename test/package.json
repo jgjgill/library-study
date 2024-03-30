@@ -1,15 +1,15 @@
 {
   "name": "test",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test:all": "yarn test:cjs && yarn test:esm",
     "test:cjs": "node ./src/test.cjs",
     "test:esm": "node ./src/test.js"
   },
   "dependencies": {
-    "jgjgill-utils": "workspace:^"
+    "jgjgill-utils": "0.0.0-onlyESM"
   }
 }
